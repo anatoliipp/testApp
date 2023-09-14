@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+      <PackageReference Include="Acidic.Extensions.Configuration.Binder" Version="1.0.0" />
+      <PackageReference Include="Autofac" Version="7.1.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Prism.Core" Version="8.1.97" />
+    </ItemGroup>
+
+
+
+
+
+
+    <ItemGroup>
+      <None Update="Data.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+
+
+
+
+
+
+
+
+
+
+
+
+    </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Project>
